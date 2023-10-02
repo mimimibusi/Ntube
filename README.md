@@ -1,3 +1,19 @@
+# Goのインストール
+`brew install go`でgoをインストールする(バージョンはgo1.21.1 darwin/amd64)
+
+## パスを通す
+`vim ~/.zshrc`でvimを開き
+`export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin`
+を書いて`source ~/.zshrc`で~/.zshrcの変更を保存
+
+## Goの実行
+`go run main.go`でテストファイルのmain.goを実行できる
+
+## reactのrun
+`npm start`でlocalhost:3000が勝手に開く
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
